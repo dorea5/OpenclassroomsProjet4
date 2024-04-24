@@ -1,0 +1,21 @@
+{
+  "name": "p3-ohmyfood",
+  "version": "1.0.0",
+  "description": " Mon projet 3 Developper web chez OpenClassrooms, l'objectif est de dynamiser une pages web avec des animations en css en utilisant sass",
+  "main": "index.js",
+  "scripts": {
+    "sass-ledelice": "sass --watch ./sass/ledelice.scss ./css/ledelice.css",
+    "sass-dorea": "sass  ./sass/ledelice.scss ./css/ledelice.css",
+    "sass-home":"sass --watch ./sass/home.scss ./css/home.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Oleevay/p3-ohmyfood.git/"
+  },
+  "author": "dorea",
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.72.0"
+  }
+}

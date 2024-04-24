@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap");
+@import "./vendor/normalise.css";
+header {
+  justify-content: center;
+  display: flex;
+}
+
+header img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  height: 62px;
+}
+.footer {
+  background-color: #353535;
+  height: 350px;
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.footer .container .icon {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  padding-left: 0.5em;
+  padding-top: 0.2em;
+  color: white;
+}
+
+.footer_logo {
+  color: white;
+  font-family: Shrikhand, "cursive";
+  font-size: 2.5em;
+  margin: 0.5em 0.5em 1rem;
+}
+
+.color {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  font-size: 2em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-width: 320px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.box {
+  background-color: rgb(250, 247, 247);
+  border-radius: 45px;
+  padding: 1.8em;
+  filter: drop-shadow(11px 11px 9px rgba(0, 0, 0, 0.2));
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2.5em;
+  display: flex;
+}
+
+.heart {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 64px;
+  align-items: center;
+  padding-left: 2.2em;
+  padding-top: 0.5em;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  border: 0;
+  width: 47%;
+  margin-left: 6em;
+  margin-top: 2em;
+  padding: 1em;
+  font-weight: 400;
+  font-size: 2.2rem;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #686868;
+  background-image: linear-gradient(1deg, rgba(143, 86, 255, 0.9), rgba(255, 121, 218, 0.9));
+  cursor: pointer;
+  box-shadow: 0.25rem 0.25rem 15px rgba(1, 0, 0, 0.25);
+}
+
+.img {
+  width: 100%;
+  height: 513px;
+  object-fit: cover;
+}
+
+.menus {
+  background-color: #f6f6f6;
+  padding: 3rem 3rem;
+  margin-top: 4em;
+  border-radius: 100px 100px 0 0;
+  height: 3000px;
+  margin-top: -5em;
+  position: relative;
+}
+
+.font {
+  font-family: "Shrikhand", cursive;
+  font-size: 65px;
+  padding-left: 6px;
+}
+
+.align {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu_title {
+  font-size: 40px;
+  padding-top: 1.5em;
+}
+
+.underline {
+  background: #99E2D0;
+  width: 123px;
+  height: 8px;
+  margin-top: 8px;
+}
+
+.container_f {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  background-color: whitesmoke;
+}
+
+.police_one {
+  font-size: 49px;
+  padding: 0.2em;
+  display: flex;
+  font-weight: 900;
+}
+
+.police_two {
+  font-size: 41px;
+  padding: 0.2em;
+  display: flex;
+  font-weight: 100;
+}
+
+/*# sourceMappingURL=lapalette.css.map */
