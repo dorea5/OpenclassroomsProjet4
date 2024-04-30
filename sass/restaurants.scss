@@ -15,25 +15,26 @@
 
 .img {
   width: 100%;
-  
   object-fit: cover;
 }
 
 
 .menus {
   background-color: #f6f6f6;
-  padding: 3rem 3rem;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 6rem;
   margin-top: 4em;
   border-radius: 100px 100px 0 0;
-  height: 3000px;
   margin-top: -5em;
   position: relative;
-  margin-bottom: 20em;
+
 }
 
 .font {
   font-family: "Shrikhand", cursive;
-  font-size: 65px;
+  font-size: 74px;
   padding-left: 6px;
 }
 
@@ -72,16 +73,17 @@
   }
   
   .police_one{
-  font-size: 49px;
-  padding: 0.2em;
+  font-size: 47px;
+  padding-left: 0.2em;
   display: flex;
   font-weight: 900;}
 
   .police_two{
-    font-size: 41px;
+    font-size: 40px;
     padding: 0.2em;
     display: flex;
     font-weight: 100;
+    width: 89%;
   }
 
  .align_arrow{
