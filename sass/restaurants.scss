@@ -74,16 +74,20 @@
   
   .police_one{
   font-size: 47px;
-  padding-left: 0.2em;
   display: flex;
   font-weight: 900;}
 
-  .police_two{
-    font-size: 40px;
-    padding: 0.2em;
-    display: flex;
-    font-weight: 100;
-    width: 89%;
+  
+    
+.police_two {
+  font-size: 40px;
+  display: flex;
+  font-weight: 100;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+    
+    
   }
 
  .align_arrow{
