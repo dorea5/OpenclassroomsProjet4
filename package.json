@@ -4,7 +4,7 @@
   "description": " Mon projet 3 Developper web chez OpenClassrooms, l'objectif est de dynamiser une pages web avec des animations en css en utilisant sass",
   "main": "index.js",
   "scripts": {
-    "sass-ledelice": "sass --watch ./sass/ledelice.scss ./css/ledelice.css",
+    "sass-restaurants": "sass --watch ./sass/restaurants.scss ./css/restaurants.css",
     "sass-dorea": "sass  ./sass/ledelice.scss ./css/ledelice.css",
     "sass-home":"sass --watch ./sass/home.scss ./css/home.css"
   },
