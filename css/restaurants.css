@@ -5,11 +5,11 @@
   justify-content: center;
   border: 0;
   width: 47%;
-  margin-left: 6em;
+  margin-left: 5em;
   margin-top: 2em;
   padding: 1em;
   font-weight: 400;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   border-radius: 100px;
   color: #fff;
   background-color: #686868;
@@ -69,6 +69,16 @@
 header {
   display: flex;
 }
+@media (min-width: 1440px) {
+  header {
+    justify-content: center;
+  }
+}
+@media (min-width: 1440px) and (min-width: 975px) {
+  header {
+    justify-content: center;
+  }
+}
 
 header img {
   display: flex;
@@ -79,11 +89,11 @@ header img {
 }
 .heart {
   display: flex;
-    justify-content: flex-end;
-    font-size: 68px;
-    align-items: center;
-    padding-left: 1em;
-    padding-top: 0.5em;
+  justify-content: flex-end;
+  font-size: 68px;
+  align-items: center;
+  padding-left: 1.2em;
+  padding-top: 0.2em;
 }
 
 .heart:hover {
@@ -117,20 +127,20 @@ a {
 
 .menus {
   background-color: #f6f6f6;
-  padding: 3rem 3rem;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 6rem;
   margin-top: 4em;
   border-radius: 100px 100px 0 0;
-  height: 3000px;
   margin-top: -5em;
   position: relative;
-  margin-bottom: 20em;
 }
 
 .font {
   font-family: "Shrikhand", cursive;
   font-size: 74px;
   padding-left: 6px;
-  padding-top: 0.4em;
 }
 
 .align {
@@ -167,17 +177,18 @@ a {
 }
 
 .police_one {
-  font-size: 49px;
-  padding: 0.2em;
+  font-size: 47px;
   display: flex;
   font-weight: 900;
 }
 
 .police_two {
-  font-size: 41px;
-  padding: 0.2em;
+  font-size: 40px;
   display: flex;
   font-weight: 100;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
 }
 
 .align_arrow {
