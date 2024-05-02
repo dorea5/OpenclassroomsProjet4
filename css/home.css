@@ -159,7 +159,7 @@ a {
     background-color: #F6F6F6;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -387,10 +387,11 @@ h1 {
 
 .restaurant_kard {
   background-color: #fff;
-  border-radius: 3em;
+  border-radius: 4em;
   text-decoration: none;
   padding-bottom: 2em;
   margin-bottom: 4em;
+  position: relative;
 }
 
 .card_title {
