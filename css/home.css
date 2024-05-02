@@ -169,7 +169,8 @@ a {
   font-weight: 900;
   text-align: center;
   padding-top: 1em;
-  padding-left: 2.3em;
+  justify-content: center;
+  width: 91%;
 }
 @media (min-width: 1440px) {
   .reservation_text {
@@ -179,13 +180,11 @@ a {
     font-weight: 900;
     text-align: center;
     padding-top: 1em;
-    padding-left: 2.3em;
   }
 }
 
 .reservation_subtitle {
   font-weight: 100;
-  padding-left: 0.4em;
   color: grey;
   font-size: 2.7em;
   display: flex;
