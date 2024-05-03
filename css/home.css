@@ -86,24 +86,6 @@ a {
   color: black;
 }
 
-.btn {
-  display: flex;
-  justify-content: center;
-  border: 0;
-  width: 47%;
-  margin-left: 6em;
-  margin-top: 2em;
-  padding: 1em;
-  font-weight: 400;
-  font-size: 2.2rem;
-  border-radius: 100px;
-  color: #fff;
-  background-color: #686868;
-  background-image: linear-gradient(1deg, rgba(143, 86, 255, 0.9), rgba(255, 121, 218, 0.9));
-  cursor: pointer;
-  box-shadow: 0.25rem 0.25rem 15px rgba(1, 0, 0, 0.25);
-}
-
 .shadow {
   width: 100%;
   filter: drop-shadow(0px 9px 0px rgba(0, 0, 0, 0.111));
@@ -208,12 +190,16 @@ h1 {
   font-size: 48px;
 }
 
+.center_btn {
+  display: flex;
+  justify-content: center;
+}
+
 .btn {
   display: flex;
   justify-content: center;
   border: 0;
   width: 62%;
-  margin-left: 2.9em;
   margin-top: 1.9em;
   padding: 3rem;
   font-weight: 400;
@@ -230,7 +216,7 @@ h1 {
     display: flex;
     justify-content: center;
     border: 0;
-    margin-left: 14em;
+    width: 100%;
     margin-top: 1.9em;
     font-weight: 400;
     font-size: 2.9rem;
@@ -240,7 +226,6 @@ h1 {
     background-image: linear-gradient(1deg, rgba(143, 86, 255, 0.9), rgba(255, 121, 218, 0.9));
     cursor: pointer;
     box-shadow: 0.25rem 0.8rem 20px rgba(1, 0, 0, 0.25);
-    width: 35%;
   }
 }
 
