@@ -10,34 +10,49 @@
   margin-bottom: 2.5em;
   display: flex;
   animation: slide 1s forwards;
-  opacity: 0;
+  cursor: pointer;
+  animation: item 0.6s;
+  animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
+  animation-fill-mode: both;
+  transform: scale(0);
+  max-width: 100%;
 }
 
-.box:nth-child(2) {
+.box:hover .box_check {
+  margin-right: -1rem;
+}
+
+.menu_head {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex: 1;
+}
+
+.delay_2 {
+  animation-delay: 0.2s;
+}
+
+.delay_1 {
   animation-delay: 0.1s;
 }
 
-@keyframes slide {
+@keyframes item {
   0% {
-    transform: translatey(20px);
-    opacity: 0%;
+    transform: scale(0);
   }
   100% {
-    transform: translatey(0px);
-    opacity: 100%;
+    transform: scale(1);
   }
 }
 .box_check {
-  background: #99e2d0;
-  cursor: pointer;
-  height: auto;
-  width: 0;
-  opacity: 0;
-  border-radius: 0 15px 15px 0;
+  background-color: #99e2d0;
+  margin: -1rem -5rem -1rem 1rem;
+  width: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  transition-duration: 0.5s;
 }
 
 icon_check {
@@ -46,20 +61,24 @@ icon_check {
   transition: 0.4s ease-in-out;
 }
 
-.material_icon {
-  font-family: "Material Icons";
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-  -webkit-font-feature-settings: "liga";
-  -webkit-font-smoothing: antialiased;
+.box .box_wrapicon {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
+}
+
+.menu_item_icon {
+  background-color: #99e2d0;
+}
+
+.fa-check:before {
+  content: "\f00c";
 }
 
 .footer {
