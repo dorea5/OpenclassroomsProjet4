@@ -559,17 +559,8 @@ h1 {
 
 .center_header {
   display: flex;
-  padding-left: 16em;
-}
-@media (min-width: 1440px) {
-  .center_header {
-    padding-left: 2em;
-  }
-}
-@media (min-width: 1440px) and (min-width: 975px) {
-  .center_header {
-    padding-left: 2em;
-  }
+  justify-content: center;
+  width: 100%;
 }
 
 /***********************************************/

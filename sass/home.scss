@@ -420,15 +420,12 @@ background-image:  linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 
   .center_header{
     display: flex;
-    padding-left: 16em;
-    @media (min-width : 1440px) {
-      padding-left: 2em;
-      @media (min-width:975px){
-        padding-left: 2em;
-      }
+    justify-content: center;
+    width: 100%;
+    
 
     }
-  }
+  
   
  
   /***********************************************/
