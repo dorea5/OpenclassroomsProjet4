@@ -111,6 +111,11 @@ icon_check {
     font-size: 22px;
   }
 }
+@media (min-width: 1440px) {
+  .footer .container .reverse_footer {
+    display: flex;
+  }
+}
 
 .footer_logo {
   color: white;
@@ -144,10 +149,6 @@ icon_check {
 .row {
   display: flex;
   flex-direction: row;
-}
-
-.reverse_footer {
-  display: flex;
 }
 
 header {
