@@ -543,6 +543,11 @@ h1 {
   padding-left: 1em;
   margin-bottom: 0.4em;
 }
+@media (min-width: 1440px) {
+  .card_title {
+    width: 100%;
+  }
+}
 
 .kard_nouveau {
   background-color: #99E2D0;
@@ -564,6 +569,12 @@ h1 {
   align-items: center;
   padding-left: 2.2em;
   padding-top: 0.5em;
+}
+@media (min-width: 1440px) {
+  .heart {
+    padding-left: 0;
+    width: 25%;
+  }
 }
 
 /*.heart_2{

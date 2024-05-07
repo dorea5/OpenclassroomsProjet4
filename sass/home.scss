@@ -375,6 +375,10 @@ justify-content: center;
     color: black;
     padding-left: 1em;
     margin-bottom: 0.4em;
+    @media (min-width:1440px) {
+      width: 100%;
+      
+    }
 
     
   }
@@ -399,6 +403,11 @@ justify-content: center;
     align-items: center;
     padding-left: 2.2em;
     padding-top: 0.5em;
+    @media (min-width:1440px) {
+    padding-left: 0;
+    width: 25%;
+      
+    }
   }
 
   /*.heart_2{
