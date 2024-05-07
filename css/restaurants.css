@@ -131,7 +131,7 @@ icon_check {
 }
 @media (min-width: 1440px) {
   .footer .container .icon {
-    font-size: 22px;
+    font-size: 15px;
   }
 }
 @media (min-width: 1440px) {
@@ -148,11 +148,9 @@ icon_check {
 }
 @media (min-width: 1440px) {
   .footer_logo {
-    flex-direction: row;
-    justify-content: flex-end;
+    font-size: 1.2em;
     display: flex;
-    font-size: 1.5em;
-    margin: 0.5em 1.5em 2rem;
+    padding-top: 0.5em;
   }
 }
 
@@ -165,7 +163,8 @@ icon_check {
 }
 @media (min-width: 1440px) {
   .color {
-    font-size: 1.4em;
+    font-size: 1.1em;
+    padding-right: 1.5em;
   }
 }
 
