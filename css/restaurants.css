@@ -203,6 +203,10 @@ header img {
   align-items: center;
   padding-left: 1.2em;
   padding-top: 0.2em;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition: all 700ms;
 }
 @media (min-width: 1440px) {
   .heart {
@@ -216,6 +220,7 @@ header img {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
+  transform: scale(1.13);
 }
 
 .img {

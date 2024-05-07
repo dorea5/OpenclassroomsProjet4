@@ -5,7 +5,11 @@
   align-items: center;
   padding-left: 1.2em;
   padding-top: 0.2em;
-  @media (min-width:1440px){
+   cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition: all 700ms;
+ @media (min-width:1440px){
     display: flex;
     font-size: 38px;
     
@@ -19,5 +23,7 @@
   background-clip: text;
   -webkit-text-fill-color:transparent;
   font-weight: 900;
+  transform: scale(1.13);
+
 
 }
