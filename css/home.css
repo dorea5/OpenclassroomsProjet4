@@ -95,6 +95,7 @@ icon_check {
     flex-direction: row-reverse;
     width: 100%;
     align-items: center;
+    padding-top: 5em;
   }
 }
 .footer .container .icon {
@@ -104,6 +105,11 @@ icon_check {
   padding-left: 0.5em;
   padding-top: 0.2em;
   color: white;
+}
+@media (min-width: 1440px) {
+  .footer .container .icon {
+    font-size: 22px;
+  }
 }
 
 .footer_logo {
@@ -127,10 +133,19 @@ icon_check {
   padding-left: 0.5em;
   font-size: 2.6em;
 }
+@media (min-width: 1440px) {
+  .color {
+    font-size: 1.6em;
+  }
+}
 
 .row {
   display: flex;
   flex-direction: row;
+}
+
+.reverse_footer {
+  display: flex;
 }
 
 header {
