@@ -642,8 +642,17 @@ h1 {
 @media (min-width: 1440px) {
   .heart {
     padding-left: 0;
-    width: 25%;
     font-size: 29px;
+    transition: all 700ms;
+    position: relative;
+    overflow: hidden;
+  }
+  .heart:hover {
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    transform: scale(1.13);
   }
 }
 
@@ -678,6 +687,11 @@ h1 {
 
 .aside {
   width: 70%;
+}
+@media (min-width: 1440px) {
+  .aside {
+    width: 89%;
+  }
 }
 
 .center_div {
