@@ -5,7 +5,12 @@
   align-items: center;
   padding-left: 1.2em;
   padding-top: 0.2em;
-}
+  @media (min-width:1440px){
+    display: flex;
+    font-size: 38px;
+    
+  }
+  }
 
 
 .heart:hover {

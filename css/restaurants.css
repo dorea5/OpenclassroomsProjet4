@@ -16,6 +16,12 @@
   cursor: pointer;
   box-shadow: 0.25rem 0.25rem 15px rgba(1, 0, 0, 0.25);
 }
+@media (min-width: 1440px) {
+  .btn {
+    width: 32%;
+    font-size: 1.5rem;
+  }
+}
 
 .box {
   background-color: #fff;
@@ -140,6 +146,8 @@ icon_check {
     flex-direction: row;
     justify-content: flex-end;
     display: flex;
+    font-size: 1.5em;
+    margin: 0.5em 1.5em 2rem;
   }
 }
 
@@ -152,7 +160,7 @@ icon_check {
 }
 @media (min-width: 1440px) {
   .color {
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
 }
 
@@ -171,11 +179,7 @@ header {
 @media (min-width: 1440px) {
   header {
     justify-content: center;
-  }
-}
-@media (min-width: 1440px) and (min-width: 975px) {
-  header {
-    justify-content: center;
+    width: 100%;
   }
 }
 
@@ -186,6 +190,12 @@ header img {
   align-items: center;
   padding: 2em;
 }
+@media (min-width: 1440px) {
+  header img {
+    height: 44px;
+  }
+}
+
 .heart {
   display: flex;
   justify-content: flex-end;
@@ -193,6 +203,12 @@ header img {
   align-items: center;
   padding-left: 1.2em;
   padding-top: 0.2em;
+}
+@media (min-width: 1440px) {
+  .heart {
+    display: flex;
+    font-size: 38px;
+  }
 }
 
 .heart:hover {
@@ -230,10 +246,18 @@ a {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 6rem;
-  margin-top: 4em;
   border-radius: 100px 100px 0 0;
   margin-top: -5em;
   position: relative;
+}
+@media (min-width: 1440px) {
+  .menus {
+    margin-left: 10em;
+    margin-right: 10em;
+    padding-left: 13em;
+    border-radius: 60px 60px 0 0;
+    padding-right: 13em;
+  }
 }
 
 .font {
@@ -241,15 +265,33 @@ a {
   font-size: 74px;
   padding-left: 6px;
 }
+@media (min-width: 1440px) {
+  .font {
+    font-size: 36px;
+    padding-left: 0;
+    display: flex;
+  }
+}
 
 .align {
   display: flex;
   flex-direction: row;
 }
+@media (min-width: 1440px) {
+  .align {
+    justify-content: center;
+  }
+}
 
 .menu_title {
   font-size: 43px;
   padding-top: 1.9em;
+}
+@media (min-width: 1440px) {
+  .menu_title {
+    font-size: 20px;
+    padding-top: 4em;
+  }
 }
 
 .underline {
@@ -258,6 +300,14 @@ a {
   height: 7px;
   margin-top: 16px;
   margin-bottom: 29px;
+}
+@media (min-width: 1440px) {
+  .underline {
+    width: 56px;
+    height: 4px;
+    margin-top: 8px;
+    margin-bottom: 19px;
+  }
 }
 
 .container_f {
@@ -274,11 +324,22 @@ a {
 .box {
   background-color: #fff;
 }
+@media (min-width: 1440px) {
+  .box {
+    background: #FFFFFF;
+    border-radius: 27px;
+  }
+}
 
 .police_one {
   font-size: 47px;
   display: flex;
   font-weight: 900;
+}
+@media (min-width: 1440px) {
+  .police_one {
+    font-size: 22px;
+  }
 }
 
 .police_two {
@@ -288,6 +349,12 @@ a {
   align-items: center;
   flex-direction: row;
   width: 90%;
+}
+@media (min-width: 1440px) {
+  .police_two {
+    font-size: 20px;
+    padding-top: 5px;
+  }
 }
 
 .align_arrow {
@@ -299,6 +366,12 @@ a {
   font-size: 3.5em;
   padding-right: 2.8em;
   padding-left: 1em;
+}
+@media (min-width: 1440px) {
+  .arrow {
+    font-size: 1.5em;
+    padding: 0;
+  }
 }
 
 .align_euros {
@@ -313,9 +386,20 @@ a {
   align-items: center;
   display: flex;
 }
+@media (min-width: 1440px) {
+  .euro {
+    font-size: 1.2em;
+  }
+}
 
 .euro_two {
   font-size: 1em;
+}
+
+.commander_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=restaurants.css.map */
