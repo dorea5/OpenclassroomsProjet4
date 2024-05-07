@@ -321,12 +321,12 @@ a {
 }
 @media (min-width: 1440px) {
   .reservation_menu {
-    padding-bottom: 175px;
     padding-top: 4.8em;
-    background-color: #F6F6F6;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 0.5em;
+    padding-bottom: 40px;
   }
 }
 
@@ -356,6 +356,8 @@ a {
 }
 @media (min-width: 1440px) {
   .reservation_subtitle {
+    font-size: 1.2em;
+    padding-top: 1.7em;
     justify-content: center;
   }
 }
@@ -388,6 +390,8 @@ h1 {
 @media (min-width: 1440px) {
   .btn {
     width: 100%;
+    padding: 1.1rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -399,7 +403,7 @@ h1 {
 }
 @media (min-width: 1440px) {
   .police {
-    font-size: 30px;
+    font-size: 18px;
   }
 }
 
@@ -412,7 +416,9 @@ h1 {
 }
 @media (min-width: 1440px) {
   .title_f {
-    padding: 1.3em;
+    padding-left: 8rem;
+    padding-bottom: 20px;
+    font-size: 27px;
   }
 }
 
@@ -459,7 +465,13 @@ h1 {
 }
 @media (min-width: 1440px) {
   .functioning_list {
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2em;
+    padding-right: 3em;
+    margin-left: 0;
+    margin-bottom: 0;
+    border-radius: 18px;
   }
 }
 
@@ -470,7 +482,7 @@ h1 {
 }
 @media (min-width: 1440px) {
   .functioning_icon {
-    font-size: 40px;
+    font-size: 20px;
     margin-right: 0;
   }
 }
@@ -498,20 +510,27 @@ h1 {
   .number {
     width: 20px;
     height: 22px;
-    padding: 18px;
-    margin-left: -1.1em;
-    margin-right: 0;
-    font-size: 29px;
+    padding: 6px;
+    margin-left: -3.1em;
+    margin-right: 32px;
+    font-size: 16px;
+    justify-content: center;
   }
 }
 
 .restaurant_kard img {
   display: flex;
   border-radius: 2.2rem 2.2rem 0 0;
-  object-fit: cover;
   height: 464px;
-  border-radius: 4.2rem 4.2rem 0 0;
   object-fit: cover;
+}
+@media (min-width: 1440px) {
+  .restaurant_kard img {
+    display: flex;
+    border-radius: 2.2rem 2.2rem 0 0;
+    object-fit: cover;
+    height: 257px;
+  }
 }
 
 .column {
@@ -524,10 +543,22 @@ h1 {
   padding: 7rem 1rem;
   margin-top: 11em;
 }
+@media (min-width: 1440px) {
+  .restaurants {
+    margin-top: 3rem;
+    padding: 0;
+  }
+}
 
 .h2_rest {
   padding-left: 0.6em;
   font-size: 69px;
+}
+@media (min-width: 1440px) {
+  .h2_rest {
+    font-size: 1.8rem;
+    padding-left: 4.6rem;
+  }
 }
 
 .restaurants_cards {
@@ -543,8 +574,7 @@ h1 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 53px 45px;
-    padding: 25px 0 0;
-    margin-left: 0;
+    padding: 27px 78px 29px;
   }
 }
 
@@ -555,6 +585,14 @@ h1 {
   padding-bottom: 2em;
   margin-bottom: 4em;
   position: relative;
+}
+@media (min-width: 1440px) {
+  .restaurant_kard {
+    padding-bottom: 0em;
+    margin-bottom: 3em;
+    width: 96%;
+    border-radius: 25px 25px 25px 25px;
+  }
 }
 
 .card_title {
@@ -567,6 +605,9 @@ h1 {
 @media (min-width: 1440px) {
   .card_title {
     width: 100%;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-bottom: 0.7em;
   }
 }
 
@@ -582,6 +623,13 @@ h1 {
   font-size: 40px;
   border-radius: 5%;
 }
+@media (min-width: 1440px) {
+  .kard_nouveau {
+    right: 1.75rem;
+    padding: 0.5rem;
+    font-size: 18px;
+  }
+}
 
 .heart {
   display: flex;
@@ -595,6 +643,7 @@ h1 {
   .heart {
     padding-left: 0;
     width: 25%;
+    font-size: 29px;
   }
 }
 
