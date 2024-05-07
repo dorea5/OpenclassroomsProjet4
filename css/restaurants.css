@@ -207,12 +207,12 @@ header img {
   overflow: hidden;
   position: relative;
   transition: all 700ms;
-  background-color: white;
 }
 @media (min-width: 1440px) {
   .heart {
     display: flex;
     font-size: 38px;
+    color: #9356DC;
   }
 }
 

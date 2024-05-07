@@ -9,10 +9,11 @@
   overflow: hidden;
   position: relative;
   transition: all 700ms;
-  background-color: white;
+  ;
  @media (min-width:1440px){
     display: flex;
     font-size: 38px;
+    color: #9356DC;
     
   }
   }
@@ -25,6 +26,7 @@
   -webkit-text-fill-color:transparent;
   font-weight: 900;
   transform: scale(1.13);
+ 
 
 
 }
