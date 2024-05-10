@@ -237,7 +237,7 @@ a {
   border-radius: 15px;
   background-color: white;
   animation: fadeout 0.2s 3s forwards;
-  z-index: 1000;
+  z-index: 500;
 }
 
 .animation {
@@ -265,19 +265,15 @@ a {
   margin-right: 10px;
 }
 
-.text {
-  font-size: 20px;
-}
-
 @keyframes bounce {
   0% {
-    transform: translateY(-100%);
+    transform: translateY(-150%);
   }
   50% {
-    transform: translateY(0%);
+    transform: translateY(-30%);
   }
   100% {
-    transform: translateY(-100%);
+    transform: translateY(-150%);
   }
 }
 .shadow {
