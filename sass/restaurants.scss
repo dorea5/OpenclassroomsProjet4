@@ -100,6 +100,21 @@
       border-radius: 27px;
     }
   }
+
+  
+
+  @for $i from 1 through 10 {
+    .delay-#{$i} {
+      animation-delay: $i * 100ms;
+    }
+  }
+
+
+  
+
+  
+  
+  
   
   .police_one{
   font-size: 47px;
@@ -170,4 +185,3 @@ font-size:22px;
     justify-content: center;
     align-items: center;
   }
-
