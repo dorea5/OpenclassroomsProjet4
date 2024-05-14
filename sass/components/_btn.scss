@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   border: 0;
-  width: 47%;
+  width: 17%;
   margin-top: 2em;
   padding: 1em;
   font-weight: 400;
@@ -17,8 +17,8 @@
     background-image: #FFFFFF;
 
   @media (min-width:1440px){
-    width: 32%;
-    font-size: 1.5rem;
+    width: 20%;
+    font-size: 1rem;
     &:hover{
       background-image: #FFFFFF;
     }

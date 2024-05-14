@@ -458,6 +458,7 @@ animation: fadeout 0.2s 3s forwards;
     align-items: center;
     padding-left: 2.2em;
     padding-top: 0.5em;
+    color: violet ;
     @media (min-width:1440px) {
     padding-left: 0;
     font-size: 29px;
@@ -476,28 +477,6 @@ animation: fadeout 0.2s 3s forwards;
       
     }
   }
-
-  /*.heart_2{
-    opacity: 0%;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 64px;
-    align-items: center;
-    padding-left: 2.2em;
-    padding-top: 0.5em;
-
-  }*/
-
-  /*.heart_2:hover{
-    background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
-    opacity: 100%;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 64px;
-    align-items: center;
-    padding-left: 2.2em;
-    padding-top: 0.5em;
-  }*/
 
 
 

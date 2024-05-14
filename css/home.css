@@ -3,9 +3,9 @@
 .box {
   background-color: #fff;
   border-radius: 45px;
-  padding: 1.8em;
   filter: drop-shadow(0px -4px 18px rgba(0, 0, 0, 0.1));
   display: flex;
+  padding: 1rem;
   flex-direction: row;
   margin-bottom: 2.5em;
   display: flex;
@@ -18,8 +18,9 @@
   max-width: 100%;
 }
 
-.box:hover .box_check {
-  margin-right: -1rem;
+.box:hover .check {
+  transition: all 0.5s;
+  margin-right: -0.5rem;
 }
 
 .menu_head {
@@ -27,6 +28,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   flex: 1;
+  padding: 1rem;
 }
 
 .delay_2 {
@@ -650,6 +652,7 @@ h1 {
   align-items: center;
   padding-left: 2.2em;
   padding-top: 0.5em;
+  color: violet;
 }
 @media (min-width: 1440px) {
   .heart {
@@ -668,26 +671,6 @@ h1 {
   }
 }
 
-/*.heart_2{
-  opacity: 0%;
-  display: flex;
-  justify-content: flex-end;
-  font-size: 64px;
-  align-items: center;
-  padding-left: 2.2em;
-  padding-top: 0.5em;
-
-}*/
-/*.heart_2:hover{
-  background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
-  opacity: 100%;
-  display: flex;
-  justify-content: flex-end;
-  font-size: 64px;
-  align-items: center;
-  padding-left: 2.2em;
-  padding-top: 0.5em;
-}*/
 .gradient:hover {
   background: linear-gradient(0deg, #9356dc, #ff79da);
 }
