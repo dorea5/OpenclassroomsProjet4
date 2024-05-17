@@ -155,17 +155,10 @@ icon_check {
 header {
   display: flex;
 }
-@media (min-width: 1440px) {
-  header {
-    justify-content: center;
-    width: 100%;
-  }
-}
 
 header img {
   display: flex;
   height: 75px;
-  justify-content: center;
   align-items: center;
   padding: 2em;
 }

@@ -147,6 +147,8 @@ font-size:22px;
  .align_arrow{
   display: flex;
   align-items: center;
+  width: 58%;
+  justify-content: space-between;
  }
 
   .arrow {
@@ -154,8 +156,8 @@ font-size:22px;
     padding-right: 2.8em;
     padding-left: 1em;
     @media (min-width:1440px){
-      font-size: 1.5em;
-      padding: 0;
+      font-size: 1.7em;
+      padding-left: 1em;
 
     }
   }
