@@ -1,34 +1,34 @@
-.heart {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 68px;
-  align-items: center;
-  padding-left: 1.2em;
-  padding-top: 0.2em;
-  cursor: pointer;
+
+
+.heart{
   overflow: hidden;
-  position: relative;
-  transition: all 700ms;
-  color:black;
-  
-  
- @media (min-width:1440px){
-    display: flex;
-    font-size: 38px;
-    color: violet;
-    
-  }
-  }
-
-
+  font-weight: 400;
+  cursor: pointer;
+}
 .heart:hover {
   
-  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-  background-clip: text;
-  -webkit-text-fill-color:transparent;
-  font-weight: 900;
-  transform: scale(1.13);
  
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+   background-clip: text;
+   -webkit-text-fill-color:transparent;
+   font-weight: 900;
+   transform: scale(1.13);
+   animation: colorReveal 0.5s ease-in-out forwards;
+}
 
 
+@keyframes colorReveal {
+
+  0% { opacity: 0;
+    transform: scale(0.6);
+
+  }
+  40%{ opacity: 0.3;
+    transform: scale(1);
+
+  }
+  100%{ opacity: 1;
+    transform: scale(1.13);
+
+  }
 }

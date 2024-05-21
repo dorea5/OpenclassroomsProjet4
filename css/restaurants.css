@@ -191,24 +191,9 @@ header img {
 }
 
 .heart {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 68px;
-  align-items: center;
-  padding-left: 1.2em;
-  padding-top: 0.2em;
-  cursor: pointer;
   overflow: hidden;
-  position: relative;
-  transition: all 700ms;
-  color: black;
-}
-@media (min-width: 1440px) {
-  .heart {
-    display: flex;
-    font-size: 38px;
-    color: violet;
-  }
+  font-weight: 400;
+  cursor: pointer;
 }
 
 .heart:hover {
@@ -217,8 +202,23 @@ header img {
   -webkit-text-fill-color: transparent;
   font-weight: 900;
   transform: scale(1.13);
+  animation: colorReveal 0.5s ease-in-out forwards;
 }
 
+@keyframes colorReveal {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  40% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.13);
+  }
+}
 .img {
   width: 100%;
   height: 513px;
@@ -246,6 +246,22 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.heart {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 68px;
+  align-items: center;
+  padding-left: 1.2em;
+  padding-top: 0.2em;
+  cursor: pointer;
+  position: relative;
+}
+@media (min-width: 1440px) {
+  .heart {
+    font-size: 38px;
+  }
 }
 
 .img {
