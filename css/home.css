@@ -20,7 +20,12 @@
 .box:hover .check {
   transition: all 0.5s;
   margin-right: 0rem;
-  margin-left: -3.5em;
+  margin-left: 0.1em;
+}
+@media (min-width: 1440px) {
+  .box:hover .check {
+    margin-left: -3.5em;
+  }
 }
 
 .menu_head {

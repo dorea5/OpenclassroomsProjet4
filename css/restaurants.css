@@ -42,7 +42,12 @@
 .box:hover .check {
   transition: all 0.5s;
   margin-right: 0rem;
-  margin-left: -3.5em;
+  margin-left: 0.1em;
+}
+@media (min-width: 1440px) {
+  .box:hover .check {
+    margin-left: -3.5em;
+  }
 }
 
 .menu_head {
@@ -241,9 +246,9 @@ a {
   margin-right: -9rem;
   color: white;
   font-size: 40px;
-  padding: 0.6em 0.5em;
-  border-radius: 0 27px 27px 0;
-  width: 5%;
+  padding: 1.8em 1em;
+  border-radius: 0 40px 40px 0;
+  width: 7%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -251,11 +256,14 @@ a {
 @media (min-width: 1440px) {
   .check {
     margin-left: -2em;
+    padding: 0.8em 0.9em;
+    border-radius: 0 27px 27px 0;
+    width: 5%;
   }
 }
 
 .check .fa-solid {
-  font-size: 0.7em;
+  font-size: 1.1em;
 }
 
 .heart {
@@ -414,10 +422,12 @@ a {
   font-size: 47px;
   display: flex;
   font-weight: 900;
+  padding-bottom: 10px;
 }
 @media (min-width: 1440px) {
   .police_one {
     font-size: 22px;
+    padding-bottom: 0;
   }
 }
 
@@ -461,18 +471,19 @@ a {
   justify-content: space-between;
   padding-left: 1em;
 }
-
 .euro {
   font-size: 2.8em;
   font-weight: 900;
   align-items: center;
   display: flex;
+  width: 17%;
+  padding-top: 65px;
 }
 @media (min-width: 1440px) {
   .euro {
     font-size: 1.2em;
     width: 35%;
-    padding-top: 15px;
+    padding-top: 18px;
   }
 }
 
@@ -489,10 +500,12 @@ a {
 .back {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  padding-left: 1em;
 }
 @media (min-width: 1440px) {
   .back {
-    width: 100%;
+    padding-left: 0;
   }
 }
 
