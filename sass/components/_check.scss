@@ -6,15 +6,18 @@ background-color: #99e2d0;
 margin-right: -9rem;
 color: white;
 font-size: 40px;
-padding: 0.6em 0.3em;
-border-radius: 0 20px 20px 0;
+padding: 0.6em 0.5em;
+border-radius: 0 27px 27px 0;
 width: 5%;
 display: flex;
 justify-content: center;
 align-items: center;
 @media (min-width :1440px){
-  margin-right: -4em;
+  margin-left: -2em;
 }
 }
 
+.check .fa-solid{
+  font-size: 0.7em;
+}
 
