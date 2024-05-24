@@ -183,6 +183,7 @@ font-size:22px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 1em;
 
   }
 
@@ -193,6 +194,10 @@ font-size:22px;
     display: flex;
     @media (min-width:1440px){
       font-size: 1.2em;
+      
+      justify-content: flex-end;
+      width: 62%;
+      padding-top: 15px;
     }
   }
 
@@ -205,4 +210,10 @@ font-size:22px;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+
+  .back{
+    display: flex;
+    flex-direction: column;
   }

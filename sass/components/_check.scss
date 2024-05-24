@@ -1,16 +1,20 @@
 
-$color-tertiary:#99e2d0;
 
 .check {
 align-items: center;
-background-color: $color-tertiary;
+background-color: #99e2d0;
 margin-right: -9rem;
 color: white;
 font-size: 40px;
-width: 7%;
+padding: 0.6em 0.3em;
+border-radius: 0 20px 20px 0;
+width: 5%;
 display: flex;
 justify-content: center;
 align-items: center;
+@media (min-width :1440px){
+  margin-right: -4em;
+}
 }
 
 
