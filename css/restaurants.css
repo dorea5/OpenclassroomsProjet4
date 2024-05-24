@@ -37,6 +37,9 @@
   animation-fill-mode: both;
   transform: scale(0);
   max-width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .box:hover .check {
@@ -423,6 +426,9 @@ a {
   display: flex;
   font-weight: 900;
   padding-bottom: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 @media (min-width: 1440px) {
   .police_one {
@@ -438,6 +444,9 @@ a {
   align-items: center;
   flex-direction: row;
   width: 90%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 @media (min-width: 1440px) {
   .police_two {
@@ -502,6 +511,9 @@ a {
   flex-direction: column;
   width: 100%;
   padding-left: 1em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 @media (min-width: 1440px) {
   .back {
