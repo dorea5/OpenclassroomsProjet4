@@ -1,6 +1,6 @@
 .box {
-    
-  background-color:#fff;
+
+  background-color: #fff;
   border-radius: 45px;
   filter: drop-shadow(0px -4px 18px rgba(0, 0, 0, 0.1));
   display: flex;
@@ -10,75 +10,68 @@
   animation: slide 1s forwards;
   cursor: pointer;
   animation: item .6s;
-  animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+  animation-timing-function: cubic-bezier(.5, 1.58, .34, .82);
   animation-fill-mode: both;
   transform: scale(0);
   max-width: 100%;
   white-space: nowrap;
-      text-overflow: ellipsis;
-      overflow: hidden;
+  text-overflow: ellipsis;
+  overflow: hidden;
 
-  
-   }
 
-   .box:hover .check {
-      transition: all 0.5s;
-      margin-right: 0rem;
-      margin-left: 0.1em;
-      @media (min-width:1440px){
-     margin-left: -3.5em;
-      }
-      
-      
-        }
+}
 
-   
-   
+.box:hover .check {
+  transition: all 0.5s;
+  margin-right: 0rem;
+  margin-left: 0.1em;
 
-    .menu_head{
-      white-space: nowrap;
-      text-overflow: ellipsis;
-      overflow: hidden;
-      flex: 1;
-    }
-
-   .delay_2{
-    animation-delay: 0.2s;
-   }
-
-   .delay_1{
-    animation-delay: 0.1s;
-   }
-   
-   
-   @keyframes item{
-    0% {
-      transform: scale(0);
-  }
-  
-  100% {
-      transform: scale(1);
-  }
+  @media (min-width:1440px) {
+    margin-left: -3.5em;
   }
 
-  .box_check {
-    background-color: #99e2d0;
-    margin: -1rem -5rem -1rem 1rem;
-    width: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition-duration: .5s;
-  }
 
-icon_check {
-  font-size: 3rem;
-  color: white;
-  transition: 0.4s ease-in-out;
+}
+
+.box:hover .police_two {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 
-.box .box_wrapicon{
+.menu_head {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex: 1;
+}
+
+.delay_2 {
+  animation-delay: 0.2s;
+}
+
+.delay_1 {
+  animation-delay: 0.1s;
+}
+
+
+@keyframes item {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+
+.box .box_wrapicon {
   height: 1.6rem;
   width: 1.6rem;
   background-color: #fff;
@@ -90,9 +83,10 @@ icon_check {
   transition-duration: .5s;
 }
 
-.menu_item_icon{
+.menu_item_icon {
   background-color: #99e2d0;
 }
 
 .fa-check:before {
-  content: "\f00c";}
+  content: "\f00c";
+}

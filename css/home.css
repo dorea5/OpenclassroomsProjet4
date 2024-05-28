@@ -31,6 +31,12 @@
   }
 }
 
+.box:hover .police_two {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .menu_head {
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -54,22 +60,6 @@
     transform: scale(1);
   }
 }
-.box_check {
-  background-color: #99e2d0;
-  margin: -1rem -5rem -1rem 1rem;
-  width: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition-duration: 0.5s;
-}
-
-icon_check {
-  font-size: 3rem;
-  color: white;
-  transition: 0.4s ease-in-out;
-}
-
 .box .box_wrapicon {
   height: 1.6rem;
   width: 1.6rem;
