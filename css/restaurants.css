@@ -4,11 +4,11 @@
   display: flex;
   justify-content: center;
   border: 0;
-  width: 17%;
+  width: 28%;
   margin-top: 2em;
   padding: 1em;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2.2rem;
   border-radius: 100px;
   color: #fff;
   background-color: #686868;
@@ -17,6 +17,10 @@
   box-shadow: 0.25rem 0.25rem 15px rgba(1, 0, 0, 0.25);
 }
 @media (min-width: 1440px) {
+  .btn {
+    font-size: 1.5rem;
+    width: 30%;
+  }
   .btn:hover {
     background-image: linear-gradient(1deg, rgba(145, 95, 245, 0.9), rgba(249, 151, 221, 0.9));
   }
@@ -478,8 +482,8 @@ a {
 @media (min-width: 1440px) {
   .euro {
     font-size: 1.2em;
-    width: 35%;
-    padding-top: 18px;
+    width: 33%;
+    padding-top: 27px;
   }
 }
 
