@@ -260,7 +260,12 @@ a {
 }
 
 .check .fa-solid {
-  font-size: 1.1em;
+  font-size: 1.5em;
+}
+@media (min-width: 1440px) {
+  .check .fa-solid {
+    font-size: 1.1em;
+  }
 }
 
 .heart {
@@ -324,6 +329,7 @@ a {
 @media (min-width: 1440px) {
   .align {
     justify-content: center;
+    padding-bottom: 2em;
   }
 }
 
@@ -334,7 +340,7 @@ a {
 @media (min-width: 1440px) {
   .menu_title {
     font-size: 20px;
-    padding-top: 4em;
+    padding-top: 0.5em;
   }
 }
 
