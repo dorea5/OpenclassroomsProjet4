@@ -53,7 +53,7 @@
 }
 @media (min-width: 1440px) {
   .box:hover .check {
-    margin-left: -3.5em;
+    margin-left: -3em;
   }
 }
 
@@ -240,7 +240,7 @@ a {
 .check {
   align-items: center;
   background-color: #99e2d0;
-  margin-right: -9rem;
+  margin-right: -10rem;
   color: white;
   font-size: 40px;
   padding: 1.8em 1em;
@@ -264,7 +264,7 @@ a {
 }
 @media (min-width: 1440px) {
   .check .fa-solid {
-    font-size: 1.1em;
+    font-size: 0.9em;
   }
 }
 
