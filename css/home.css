@@ -27,7 +27,7 @@
 }
 @media (min-width: 1440px) {
   .box:hover .check {
-    margin-left: -3.5em;
+    margin-left: -3em;
   }
 }
 
@@ -651,8 +651,8 @@ h1 {
   background-color: #99E2D0;
   color: #008766;
   position: absolute;
-  right: 5.75rem;
-  margin-top: 0.5em;
+  right: 3.8rem;
+  margin-top: 0.7em;
   padding: 1rem;
   padding-left: 0.8em;
   padding-right: 0.8em;
