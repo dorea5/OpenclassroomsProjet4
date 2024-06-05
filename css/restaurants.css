@@ -284,6 +284,10 @@ a {
   }
 }
 
+.space_f {
+  padding-right: 0.3em;
+}
+
 .img {
   width: 100%;
   object-fit: cover;
